@@ -1,8 +1,10 @@
-let myInfo = { name: "Sylonjia Odion",
+ function printMyInfo(myInfo) {
+    console.log("My Name: " + myInfo.name)
+        console.log("My Address: " + myInfo.address) }
+
+        let myInfo = { name: "Sylonjia Odion",
 address: "123 Main Street",
 
  };
 
- console.log("My Name: " + myInfo.name)
- console.log("My Address: " + myInfo.address) 
-   
+ printMyInfo(myInfo);
