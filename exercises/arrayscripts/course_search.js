@@ -72,12 +72,12 @@ for (let i = 0; i < cheapCourses.length; i++) {
    
 }
 
-/*for (let i = 0; i < cheapCourses.length; i++) {
+for (let i = 0; i < cheapCourses.length; i++) {
     const course = cheapCourses[i];
     if (course.Location == "Classroom 1") {
     console.log(course.Title);}
 }
-   */
+   
 
 
 

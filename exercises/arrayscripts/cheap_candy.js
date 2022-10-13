@@ -21,9 +21,17 @@ console.log(cheapCandy);
 
 for (let i = 0; i < cheapCandy.length; i++) {
     const candy = cheapCandy[i];
+    console.log(candy.price);
+}
+
+console.log(".....................................")
+
+for (let i = 0; i < cheapCandy.length; i++) {
+    const candy = cheapCandy[i];
     console.log(candy.product);
 }
 
+console.log(".....................................")
 for (let i = 0; i < cheapCandy.length; i++) {
     const candy = cheapCandy[i];
     if (candy.product == "Swedish Fish"){
@@ -31,11 +39,13 @@ for (let i = 0; i < cheapCandy.length; i++) {
     }
 }
 
-
+console.log(".....................................")
 
 for (let i = 0; i < cheapCandy.length; i++) {
     const candy = cheapCandy[i];
-    if (candy.product == products.splice(M&Ms)) {
-        console.log(candy.product);
-    }
+   if (candy.product.indexOf("M&Ms") !== -1) {
+    
+    console.log(candy.product);
+ 
+ }
 }
