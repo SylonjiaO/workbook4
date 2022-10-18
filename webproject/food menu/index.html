@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <select name="categoryList" id="categoryList" onchange="loadItemList();">
+        <option value="">Select Category</option>
+        <option value="drinks">Drinks</option>
+        <option value="entrees">Entrees</option>
+        <option value="desserts">Desserts</option>
+    </select>
+    <br>
+    <select name="itemList" id="itemList" size="8"></select>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Football</title>
-</head>
-<body>
-    <form action="" onsubmit="displayTeams(event);">
-    <select name="teamsList" id="teamsList" onchange="handleChange">
-        <option value="">Select</option>
     
-    </select>
+</head>
 
-    <button type="submit">Choose Team</button>
+<body>
+    <form action="" onsubmit="displayTeam(event);">
+        <select name="teamsList" id="teamsList" onchange="handleChange();">
+            <option value="">Select Option</option>
+
+        </select>
+        <button type="submit">Display Team</button>
     </form>
-    <p id="teamName"></p>
+
+    <p id="message"></p>
     <script src="./main.js"></script>
 </body>
+
 </html>
